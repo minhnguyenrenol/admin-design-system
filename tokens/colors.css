@@ -27,7 +27,7 @@
   /* Text */
   --text-primary: var(--brand-ink);
   --text-secondary: #5b6b70;
-  --text-tertiary: #636f73;  /* v2.1: was #8a979b, 2.7:1 on --canvas. Now 4.6:1. Keep it for meta text; --n-500 stays for icons and rules */
+  --text-tertiary: #636f73;  /* 4.6:1 on --canvas. Keep it for meta text; --n-500 stays for icons and rules */
   --text-link: var(--brand-deep-blue);
   --text-on-chrome: #ffffff;
   --text-on-chrome-muted: rgba(255,255,255,0.68);
@@ -39,7 +39,7 @@
 
   /* Financial semantics */
   --fin-up: #1a7a5e; --fin-up-bg: #e6f2ee;
-  --fin-down: #a5536b;  /* v2.1: was #ab5770, 4.3:1 on --canvas */ --fin-down-bg: #f6e7ec;
+  --fin-down: #a5536b;  /* text-safe red, 4.5:1 or more on --canvas */ --fin-down-bg: #f6e7ec;
   --fin-neutral: #6b9090;
 
   /* Focus */
